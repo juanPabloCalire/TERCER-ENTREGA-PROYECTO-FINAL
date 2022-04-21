@@ -1,0 +1,33 @@
+.contenedorCon{
+
+    width: 100%;
+    margin: 15px auto;
+
+
+    .imagenLogoCon {
+    width: 200px;
+    justify-content: right;
+    transform: translate(20px);
+    
+    
+    }
+    
+    .cabeceraCon {
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        margin: 0px 15px 0px 15px;
+        ;
+        border: solid;
+        display: flex;
+        justify-content: space-around;
+        font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+        .texto a{
+            color: black;
+        }
+    
+    
+    }
+}

@@ -1,0 +1,34 @@
+.contactoCon {
+
+    border: solid;
+    padding: 35px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    animation-name: fondocolor;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+    .contacto__titulo {
+    margin: 33px 33px 100px 0px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    
+    .botonSub {
+    background-color: rgb(226, 221, 221);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0);
+    }
+    
+    
+    
+
+
+}
+

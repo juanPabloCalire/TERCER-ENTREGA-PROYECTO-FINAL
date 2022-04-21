@@ -1,0 +1,25 @@
+.contenedor {
+    
+    .cabecera {
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        margin: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        .texto a{
+            color: rgb(0, 0, 0);
+        }
+        
+        
+        
+        
+        display: flex;
+        justify-content: space-around;
+
+        .imagenLogo {
+            width: 200px;
+            justify-content: right;
+            transform: translate(20px);
+            margin-right: px;
+        }
+    }
+}

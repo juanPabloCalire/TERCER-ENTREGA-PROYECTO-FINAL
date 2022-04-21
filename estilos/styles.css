@@ -1,0 +1,241 @@
+.btn--facebook {
+  background-color: blue; }
+
+.btn--instagram {
+  background-color: red; }
+
+.btn--whatsapp {
+  background-color: green; }
+
+.cabecera {
+  border: solid;
+  color: black; }
+
+.contenedor .cabecera {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-around; }
+  .contenedor .cabecera .texto a {
+    color: black; }
+  .contenedor .cabecera .imagenLogo {
+    width: 200px;
+    justify-content: right;
+    transform: translate(20px);
+    margin-right: px; }
+
+.seccionFoto {
+  border: solid black;
+  padding: 35px;
+  margin: 0px 15px 15px 15px;
+  animation-name: fondocolor;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+
+@keyframes fondocolor {
+  0% {
+    background-color: white; }
+  20% {
+    background-color: #f3f3f3; }
+  40% {
+    background-color: #ebebeb; }
+  60% {
+    background-color: #d6d3d3; }
+  80% {
+    background-color: #eeeeee; }
+  100% {
+    background-color: white; } }
+  .seccionFoto .espaldaBaguala {
+    padding: 20px 20px 20px 0px; }
+
+.nosotrosin {
+  background-color: #e9dbdb;
+  border: solid;
+  padding: 35px;
+  margin: 0px 15px 0px 15px;
+  text-align: center; }
+  .nosotrosin .nosotrosin__titulo {
+    padding: 15px 0px; }
+  .nosotrosin .nosotrosin__parrafo {
+    position: relative;
+    bottom: px;
+    margin-right: px;
+    width: px;
+    height: 300px;
+    background: #e6e6f0;
+    overflow: scroll;
+    text-align: center; }
+
+.pie {
+  border: solid;
+  padding: 15px;
+  margin: 15px;
+  background-color: #f1e7e7; }
+  .pie .pie__contacto {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px; }
+    .pie .pie__contacto ul {
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto li {
+      margin-top: 20px;
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto .instaEnlace {
+      list-style-type: none; }
+    .pie .pie__contacto .insta {
+      width: 50px;
+      list-style-type: none; }
+  .pie .pie__pago {
+    text-align: center;
+    margin-top: 50px; }
+    .pie .pie__pago article .textuno, .pie .pie__pago article .textdos, .pie .pie__pago article .texttres, .pie .pie__pago article .textcuatro {
+      color: #42199a;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: large;
+      background-color: #ddddea; }
+    .pie .pie__pago article .textdos {
+      background-color: #cbcbe0; }
+    .pie .pie__pago article .texttres {
+      background-color: #9494be; }
+    .pie .pie__pago article .textcuatro {
+      background-color: #71719e; }
+
+.contenedorPre .cabecera {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .contenedorPre .cabecera .texto a {
+    color: black; }
+  .contenedorPre .cabecera .imagenLogo {
+    width: 200px;
+    justify-content: right;
+    transform: translate(20px);
+    margin-right: px; }
+
+.galeriaPre {
+  border: solid;
+  padding: 35px;
+  margin: 15px; }
+  .galeriaPre .galeriaPre__fotos {
+    background-color: white;
+    margin: 15px 0px 15px 0px; }
+  .galeriaPre .pie__pre {
+    text-align: center; }
+  .galeriaPre .galeriaPre__fotos:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04); }
+
+.pie {
+  border: solid;
+  padding: 15px;
+  margin: 15px;
+  background-color: #f1e7e7; }
+  .pie .pie__contacto {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px; }
+    .pie .pie__contacto ul {
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto li {
+      margin-top: 20px;
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto .instaEnlace {
+      list-style-type: none; }
+    .pie .pie__contacto .insta {
+      width: 50px;
+      list-style-type: none; }
+  .pie .pie__pago {
+    text-align: center;
+    margin-top: 50px; }
+    .pie .pie__pago article .textuno, .pie .pie__pago article .textdos, .pie .pie__pago article .texttres, .pie .pie__pago article .textcuatro {
+      color: #42199a;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: large;
+      background-color: #ddddea; }
+    .pie .pie__pago article .textdos {
+      background-color: #cbcbe0; }
+    .pie .pie__pago article .texttres {
+      background-color: #9494be; }
+    .pie .pie__pago article .textcuatro {
+      background-color: #71719e; }
+
+.contenedorNos .imagenLogoNos {
+  width: 200px;
+  justify-content: right;
+  transform: translate(20px); }
+
+.contenedorNos .cabeceraNos {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  border: solid;
+  display: flex;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .contenedorNos .cabeceraNos .texto a {
+    color: black; }
+
+.nosotrosNos {
+  border: solid;
+  padding: 35px;
+  margin: 15px;
+  text-align: center;
+  animation-name: fondocolor;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+  .nosotrosNos .nosotrosNos__titulo {
+    padding: 15px 0px; }
+  .nosotrosNos .nosotrosNos__parrafo {
+    position: relative;
+    background: white;
+    text-align: center; }
+
+.contenedorCon {
+  width: 100%;
+  margin: 15px auto; }
+  .contenedorCon .imagenLogoCon {
+    width: 200px;
+    justify-content: right;
+    transform: translate(20px); }
+  .contenedorCon .cabeceraCon {
+    background-color: white;
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenedorCon .cabeceraCon .texto a {
+      color: black; }
+
+.contactoCon {
+  border: solid;
+  padding: 35px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation-name: fondocolor;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+  .contactoCon .contacto__titulo {
+    margin: 33px 33px 100px 0px; }
+  .contactoCon .titulo {
+    font-size: 30px; }
+  .contactoCon .botonSub {
+    background-color: #e2dddd;
+    color: black;
+    border: black; }

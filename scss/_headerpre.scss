@@ -1,0 +1,32 @@
+.contenedorPre {
+    
+    .cabecera {
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        margin: 15px;
+
+        display: flex;
+        justify-content: space-around;
+        font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+        
+        .texto a {
+            color: black;
+        }
+
+        .imagenLogo {
+            width: 200px;
+            justify-content: right;
+            transform: translate(20px);
+            margin-right: px;
+        }
+    }
+    
+
+
+
+
+
+}

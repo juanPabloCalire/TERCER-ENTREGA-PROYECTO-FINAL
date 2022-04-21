@@ -1,0 +1,26 @@
+.galeriaPre {
+    border: solid;
+    padding: 35px;
+    margin: 15px;
+    
+
+    .galeriaPre__fotos {
+    
+        background-color: rgb(255, 255, 255);
+        margin: 15px 0px 15px 0px;
+
+    
+    
+    }
+    .pie__pre {
+        text-align: center;
+    }
+    
+    .galeriaPre__fotos:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+
+
+
+}

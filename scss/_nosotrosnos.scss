@@ -1,0 +1,29 @@
+.nosotrosNos {
+    border: solid;
+    padding: 35px;
+    margin: 15px;
+    text-align: center;
+
+    animation-name: fondocolor;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+    .nosotrosNos__titulo {
+        padding: 15px 0px;
+    }
+
+
+    .nosotrosNos__parrafo {
+    
+        position: relative;
+        background: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+
+}
+
+
+
+
